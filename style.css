@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73; /* Deep teal */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #ffd166; /* Bright yellow for hover effect */
+}
+
+/* Container for Pages */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Page Headings */
+h1 {
+    color: #005f73; /* Deep teal */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #fefae0; /* Light beige */
+    padding: 20px;
+    border: 2px solid #005f73; /* Border matches navbar color */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Recommendations Section */
+.recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.recommendations div {
+    background-color: #e9ecef; /* Light grey */
+    border: 2px solid #005f73;
+    border-radius: 8px;
+    padding: 15px;
+    width: 45%;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* About Us and Contact Us Content Boxes */
+.container p {
+    background-color: #fefae0; /* Light beige */
+    padding: 15px;
+    border: 2px solid #005f73;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fefae0; /* Light beige */
+    padding: 20px;
+    border: 2px solid #005f73;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #005f73;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #005f73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ffd166; /* Bright yellow */
+    color: #005f73; /* Deep teal */
+}
+
+/* Footer (Optional) */
+footer {
+    background-color: #005f73; /* Deep teal */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
